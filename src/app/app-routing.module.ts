@@ -5,6 +5,7 @@ import { LoginComponent } from './login/login.component';
 import { CategoryComponent } from './category/category.component';
 import { ClientComponent } from './client/client.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import {ProductComponent} from './product/product.component';
 
 
 const routes: Routes = [
@@ -33,6 +34,11 @@ const routes: Routes = [
   {
     path:'**',
     component:PageNotFoundComponent,
+    pathMatch:'full'
+  },
+  {
+    path:'product',
+    component:ProductComponent,
     pathMatch:'full'
   }
 

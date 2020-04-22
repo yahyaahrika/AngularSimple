@@ -11,6 +11,6 @@ export class ProductComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  products:['Iphone','Sumsung','Nokia','Motorola'];
+ // products:['Iphone','Sumsung','Nokia','Motorola'];
 
 }
