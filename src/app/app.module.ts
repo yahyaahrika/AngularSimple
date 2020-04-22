@@ -9,6 +9,7 @@ import { ClientComponent } from './client/client.component';
 import { CategoryComponent } from './category/category.component';
 import { ArticleComponent } from './article/article.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { ProductComponent } from './product/product.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     ClientComponent,
     CategoryComponent,
     ArticleComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    ProductComponent
   ],
   imports: [
     BrowserModule,
